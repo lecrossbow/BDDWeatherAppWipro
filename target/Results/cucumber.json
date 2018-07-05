@@ -1,0 +1,752 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3929004563,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ForecastStepDefinitions.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Click on each day should present the user with an exploded view of the weather in relation to the time of day",
+        "description": "",
+        "id": "show-hide-weather;click-on-each-day-should-present-the-user-with-an-exploded-view-of-the-weather-in-relation-to-the-time-of-day;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 712567072,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ForecastStepDefinitions.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 974032561,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "when I land on the homepage",
+            "match": {
+              "location": "ForecastStepDefinitions.when_I_land_on_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 158120080,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "i click on Tuesday to see the weather",
+            "match": {
+              "location": "ForecastStepDefinitions.i_click_on_Tuesday_to_see_the_weather()"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 110030021,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "i click on the Tuesday again to hide the weather",
+            "match": {
+              "location": "ForecastStepDefinitions.i_click_on_the_Tuesday_again_to_hide_the_weather()"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3146753377,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ForecastStepDefinitions.setUp()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Click on each day should present the user with an exploded view of the weather in relation to the time of day",
+        "description": "",
+        "id": "show-hide-weather;click-on-each-day-should-present-the-user-with-an-exploded-view-of-the-weather-in-relation-to-the-time-of-day;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 693427606,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ForecastStepDefinitions.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1076903014,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "when I land on the homepage",
+            "match": {
+              "location": "ForecastStepDefinitions.when_I_land_on_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 148243900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "i click on Tuesday to see the weather",
+            "match": {
+              "location": "ForecastStepDefinitions.i_click_on_Tuesday_to_see_the_weather()"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 116570973,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "i click on the Tuesday again to hide the weather",
+            "match": {
+              "location": "ForecastStepDefinitions.i_click_on_the_Tuesday_again_to_hide_the_weather()"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3138521621,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ForecastStepDefinitions.setUp()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Click on each day should present the user with an exploded view of the weather in relation to the time of day",
+        "description": "",
+        "id": "show-hide-weather;click-on-each-day-should-present-the-user-with-an-exploded-view-of-the-weather-in-relation-to-the-time-of-day;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 713193519,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ForecastStepDefinitions.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1204116360,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "when I land on the homepage",
+            "match": {
+              "location": "ForecastStepDefinitions.when_I_land_on_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 144380407,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "i click on Wednesday to see the weather",
+            "match": {
+              "location": "ForecastStepDefinitions.i_click_on_Wednesday_to_see_the_weather()"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 106820985,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "i click on the Wednesday again to hide the weather",
+            "match": {
+              "location": "ForecastStepDefinitions.i_click_on_the_Wednesday_again_to_hide_the_weather()"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3139849207,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ForecastStepDefinitions.setUp()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Click on each day should present the user with an exploded view of the weather in relation to the time of day",
+        "description": "",
+        "id": "show-hide-weather;click-on-each-day-should-present-the-user-with-an-exploded-view-of-the-weather-in-relation-to-the-time-of-day;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 712576108,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ForecastStepDefinitions.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 837920051,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "when I land on the homepage",
+            "match": {
+              "location": "ForecastStepDefinitions.when_I_land_on_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 147449397,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "i click on Wednesday to see the weather",
+            "match": {
+              "location": "ForecastStepDefinitions.i_click_on_Wednesday_to_see_the_weather()"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 109378576,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "i click on the Wednesday again to hide the weather",
+            "match": {
+              "location": "ForecastStepDefinitions.i_click_on_the_Wednesday_again_to_hide_the_weather()"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3155006819,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ForecastStepDefinitions.setUp()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Click on each day should present the user with an exploded view of the weather in relation to the time of day",
+        "description": "",
+        "id": "show-hide-weather;click-on-each-day-should-present-the-user-with-an-exploded-view-of-the-weather-in-relation-to-the-time-of-day;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 697115814,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ForecastStepDefinitions.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1241520074,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "when I land on the homepage",
+            "match": {
+              "location": "ForecastStepDefinitions.when_I_land_on_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 139904925,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "i click on Thursday to see the weather",
+            "match": {
+              "location": "ForecastStepDefinitions.i_click_on_Thursday_to_see_the_weather()"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 114337749,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "i click on the Thursday again to hide the weather",
+            "match": {
+              "location": "ForecastStepDefinitions.i_click_on_the_Thursday_again_to_hide_the_weather()"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3136430251,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ForecastStepDefinitions.setUp()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Click on each day should present the user with an exploded view of the weather in relation to the time of day",
+        "description": "",
+        "id": "show-hide-weather;click-on-each-day-should-present-the-user-with-an-exploded-view-of-the-weather-in-relation-to-the-time-of-day;;7",
+        "after": [
+          {
+            "result": {
+              "duration": 710379627,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ForecastStepDefinitions.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1204115456,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "when I land on the homepage",
+            "match": {
+              "location": "ForecastStepDefinitions.when_I_land_on_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 145171598,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "i click on Thursday to see the weather",
+            "match": {
+              "location": "ForecastStepDefinitions.i_click_on_Thursday_to_see_the_weather()"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 113622454,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "i click on the Thursday again to hide the weather",
+            "match": {
+              "location": "ForecastStepDefinitions.i_click_on_the_Thursday_again_to_hide_the_weather()"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3143610299,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ForecastStepDefinitions.setUp()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Click on each day should present the user with an exploded view of the weather in relation to the time of day",
+        "description": "",
+        "id": "show-hide-weather;click-on-each-day-should-present-the-user-with-an-exploded-view-of-the-weather-in-relation-to-the-time-of-day;;8",
+        "after": [
+          {
+            "result": {
+              "duration": 708832483,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ForecastStepDefinitions.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1188704857,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "when I land on the homepage",
+            "match": {
+              "location": "ForecastStepDefinitions.when_I_land_on_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 146447985,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "i click on Friday to see the weather",
+            "match": {
+              "location": "ForecastStepDefinitions.i_click_on_Friday_to_see_the_weather()"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 97908570,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "i click on the Friday again to hide the weather",
+            "match": {
+              "location": "ForecastStepDefinitions.i_click_on_the_Friday_again_to_hide_the_weather()"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3138968567,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ForecastStepDefinitions.setUp()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Click on each day should present the user with an exploded view of the weather in relation to the time of day",
+        "description": "",
+        "id": "show-hide-weather;click-on-each-day-should-present-the-user-with-an-exploded-view-of-the-weather-in-relation-to-the-time-of-day;;9",
+        "after": [
+          {
+            "result": {
+              "duration": 697484152,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ForecastStepDefinitions.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 835495279,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "when I land on the homepage",
+            "match": {
+              "location": "ForecastStepDefinitions.when_I_land_on_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 143223890,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "i click on Friday to see the weather",
+            "match": {
+              "location": "ForecastStepDefinitions.i_click_on_Friday_to_see_the_weather()"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 109721917,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "i click on the Friday again to hide the weather",
+            "match": {
+              "location": "ForecastStepDefinitions.i_click_on_the_Friday_again_to_hide_the_weather()"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3149293199,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ForecastStepDefinitions.setUp()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Click on each day should present the user with an exploded view of the weather in relation to the time of day",
+        "description": "",
+        "id": "show-hide-weather;click-on-each-day-should-present-the-user-with-an-exploded-view-of-the-weather-in-relation-to-the-time-of-day;;10",
+        "after": [
+          {
+            "result": {
+              "duration": 699218929,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ForecastStepDefinitions.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 833740926,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "when I land on the homepage",
+            "match": {
+              "location": "ForecastStepDefinitions.when_I_land_on_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 141705357,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "i click on Saturday to see the weather",
+            "match": {
+              "location": "ForecastStepDefinitions.i_click_on_Saturday_to_see_the_weather()"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 111653965,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "i click on the Saturday again to hide the weather",
+            "match": {
+              "location": "ForecastStepDefinitions.i_click_on_the_Saturday_again_to_hide_the_weather()"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3143912981,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ForecastStepDefinitions.setUp()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Click on each day should present the user with an exploded view of the weather in relation to the time of day",
+        "description": "",
+        "id": "show-hide-weather;click-on-each-day-should-present-the-user-with-an-exploded-view-of-the-weather-in-relation-to-the-time-of-day;;11",
+        "after": [
+          {
+            "result": {
+              "duration": 702331287,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ForecastStepDefinitions.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1185899096,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "when I land on the homepage",
+            "match": {
+              "location": "ForecastStepDefinitions.when_I_land_on_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 137540689,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "i click on Saturday to see the weather",
+            "match": {
+              "location": "ForecastStepDefinitions.i_click_on_Saturday_to_see_the_weather()"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 106119545,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "i click on the Saturday again to hide the weather",
+            "match": {
+              "location": "ForecastStepDefinitions.i_click_on_the_Saturday_again_to_hide_the_weather()"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Show hide weather",
+    "description": "",
+    "id": "show-hide-weather",
+    "keyword": "Feature",
+    "uri": "showHideWeather.feature"
+  }
+]

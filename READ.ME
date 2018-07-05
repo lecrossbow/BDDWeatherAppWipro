@@ -1,0 +1,73 @@
+Tools/languages
+IntelliJ 2018.1 Community Edition
+Cucumber
+Selenium
+Java
+Junit
+
+Notes
+ChromeDriver location must be refactored for porting (mac & windows versions available in resources
+Should errors appear on first test run (right click on CukesRunner then "Run 'CukesRunner'", check build config (Menu/Run/Edit Configurations).
+
+Results
+Stored as json in target folder, could be used to trigger html email to team on failure (multiple json parser libraries available e.g. simple json parser)
+
+Issue Key (Low, Medium, High & Critical)
+
+UI Issues
+
+- Lack of months on GUI (High)
+- Days not specific to todays date (Medium)
+- No easy way to change City from GUI (High)
+- Tuesday runs from 1pm to 10am, and all other days go from 1am to 10pm (high)
+- No weather reporting between 11pm to 1am on all days (high)
+
+
+Features (source https://github.com/buildit/acceptance-testing)
+Enter city name, get 5 day weather forecast (cannot enter city)
+Select day, get 3 hourly forecast
+Select day again, hide 3 hourly forecast
+Daily forecast should summarise the 3 hour data:
+Most dominant (or current) condition
+Most dominant (or current) wind speed and direction
+Aggregate rainfall
+Minimum and maximum temperatures
+All values should be rounded down
+
+Performance Issues
+
+- Low optimisation on desktop and mobile versions, however, Desktop is slightly better.
+Render blocking and image compression would help greatly with this. (medium)
+
+- Desktop version
+this page requires 6 render-blocking round trips and ~5 resources (0.5MB) to load.
+The median page requires 4 render-blocking round trips and ~89 resources (1.3MB) to load.
+Fewer round trips and bytes results in faster pages. (medium)
+
+- Mobile Version
+this page requires 6 render-blocking round trips and ~5 resources (0.5MB) to load.
+The median page requires 4 render-blocking round trips and ~75 resources (1MB) to load.
+Fewer round trips and bytes results in faster pages. (medium)
+
+***********************************************************************************************************
+Other considerations
+
+Potential scaling opportunities
+For parallel automation (multi-browser) that integrates with Docker/Kubernetes and handles dependencies and version'ing efficiently.
+https://github.com/zalando/zalenium
+
+Potential Service Virtualisation opportunities
+Create mocked services for greater test coverage and eradicating down-time for areas with intermittent/shared or not fit for purpose services.
+I could have also covered this in greater detail having used the site in conjunction with Node.js whilst interacting with static data from src/data.
+https://github.com/Raathigesh/atmo
+
+Potential Accessability/SEO testing opportunities (aids UI Automation)
+Asqatasun is the leading opensource software for web accessibility (#a11y) since 2007. Built with reliability in mind, it also addresses SEO concerns, and is extensible to any other domain.
+Asqatasun provides a huge level of automation and can be included in Continuous Integration thanks to its Jenkins Plugin.
+https://github.com/Asqatasun/Asqatasun
+
+Page Object Model Framework (design pattern)
+- Base Class
+- Utilities
+
+
